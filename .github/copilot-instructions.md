@@ -1,0 +1,1 @@
+Refer to [AGENTS.md](../AGENTS.md) for instructions on how to use agents in this repository.
