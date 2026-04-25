@@ -75,9 +75,9 @@ A Next.js 14 + FastAPI monorepo for an e-commerce platform.
 ```markdown
 ## Boundaries
 
-- ✅ **Always:** Write to `src/` and `tests/`, run tests before commits, follow naming conventions
+- ✅ **Always:** Write to `apps/` and `packages/`, run tests before commits, follow naming conventions
 - ⚠️ **Ask first:** Database schema changes, adding dependencies, modifying CI/CD config
-- 🚫 **Never:** Commit secrets or API keys, edit `node_modules/` or `vendor/`, remove failing tests
+- 🚫 **Never:** Commit secrets or API keys, edit `node_modules/` or `.venv/`, remove failing tests
 ```
 
 ### Iteration — Start simple, refine over time
