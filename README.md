@@ -26,7 +26,7 @@ A starter template that provides the directory structure and conventions for set
 | `.github/skills/` | On-demand skills with bundled assets | `SKILL.md` |
 | `.github/workflows/` | GitHub Actions CI/CD | `.yml` |
 
-See [`AGENTS.md`](AGENTS.md) for detailed conventions and writing guidelines.
+See [`AGENTS.md`](AGENTS.md) for agent-facing instructions and [`docs/customization-guide.md`](docs/customization-guide.md) for detailed conventions and writing guidelines.
 
 ## License
 
