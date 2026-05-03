@@ -1,0 +1,22 @@
+{
+  "name": "auto-prettier",
+  "description": "Automatically run Prettier on files after the agent edits them to ensure consistent formatting",
+  "event": "PostToolUse",
+  "enabled": true,
+  "condition": {
+    "tools": [
+      "replace_string_in_file",
+      "multi_replace_string_in_file",
+      "create_file",
+      "edit_notebook_file"
+    ]
+  },
+  "action": {
+    "type": "shell",
+    "script": ".github/hooks/auto-prettier/format-file.sh",
+    "args": ["{{filePath}}"],
+    "silent": false,
+    "continueOnError": true
+  },
+  "userMessage": "✨ Running Prettier to format the edited file..."
+}
