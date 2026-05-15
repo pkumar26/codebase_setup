@@ -11,7 +11,7 @@ A starter template that provides the directory structure and conventions for set
 
 ## Quick Start
 
-1. Clone or copy this repo's `.github/` directory into your project
+1. Clone or copy this repo's `.github/` directory into your project rfdrgf
 2. Edit [`AGENTS.md`](AGENTS.md) with your project-specific conventions
 3. Add customization files to the appropriate subdirectories
 
